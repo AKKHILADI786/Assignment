@@ -12,7 +12,7 @@ let PORT=process.env.PORT||8888;
 
 
 
-db.sync({force:true})
+db.sync()
     .then(()=>{
         app.listen(PORT,()=>{
             console.log(`server is running on http://localhost:${PORT}`)

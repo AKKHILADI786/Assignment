@@ -29,7 +29,7 @@ $(()=>{
     })
     $('#search_btn').click(()=>{
         let name=$('#search_menu').val();
-        
+        console.log(name)
         $('#content').load('html/data.html')
 
         $.post('/s/rorn',{
