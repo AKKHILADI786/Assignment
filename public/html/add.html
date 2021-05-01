@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="css/add.css">
+
+
+<div class="containe container">
+	<div class="d-flex justify-content-center h-100">
+		<div class="car card">
+			<div class="card-header">
+				<h3>Add data</h3>
+				
+			</div>
+			<div class="card-body">
+				<form action="/s" method="POST" enctype="multipart/form-data">
+					<label>Choose file</label>
+					<div class="input-group form-group">
+						<input type="file" class="form-control" id="username" name="student">
+						
+					</div>
+					
+					<div class="form-group my-2 ">
+						<input type="submit" value="Add file" id="logg" class=" my-2 btn float-end login_btn">
+					</div>
+				</form>
+			</div>
+			<div class="card-footer">
+				<div class="d-flex justify-content-center links">
+					<h6>*Add the .xlxs whose coloums are Name, Roll_no , Class</h6>
+				</div>			
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="../app/login.js"></script>
