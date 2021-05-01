@@ -7,7 +7,9 @@
 *{
     font-family: 'Ubuntu Mono', monospace;
 }
-
+body{
+    background-color: rgb(238, 238, 238);
+}
     
 /* search bar style */
 .search {

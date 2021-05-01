@@ -23,6 +23,11 @@ margin-top: auto;
 margin-bottom: auto;
 width: 400px;
 background-color: #216ce4 !important;
+box-shadow: 5px 5px 5px grey;
+}
+.car:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
 }
 
 

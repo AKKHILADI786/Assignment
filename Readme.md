@@ -8,7 +8,7 @@
   <p align="center">
     A website for Demand and suply between different user and dealers from different places.
     <br />
-    <a href="">View Website</a>
+    <a href="https://oer1.herokuapp.com/">View Website</a>
     ·
     <a href="#">Report Bug</a>
     ·
