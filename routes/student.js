@@ -41,7 +41,7 @@ route.post('/',upload.single('student'),async (req,res)=>{
     console.log(data)
     //console.log(data[5]);
     const abc= await createlist(data);
-    res.status(200).send(abc)
+    res.status(200).redirect('/');
 })
 route.get('/',async (req,res)=>{
     const data=await getall();
