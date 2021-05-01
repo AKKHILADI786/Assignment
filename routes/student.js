@@ -2,7 +2,7 @@ const route=require('express').Router()
 const multer=require('multer')
 const reader=require('xlsx')
 const upload=multer({dest:'uploads/'})
-const {createlist}=require('../controlers/student')
+const {createlist,getRN,getall,getRorN}=require('../controlers/student')
 const fs=require('fs').promises
 
 
@@ -43,6 +43,21 @@ route.post('/',upload.single('student'),async (req,res)=>{
     const abc= await createlist(data);
     res.status(200).send(abc)
 })
+route.get('/',async (req,res)=>{
+    const data=await getall();
+    res.status(200).send(data);
+})
+route.post('/rorn',async (req,res)=>{
+    const data=await getRorN(req.body.name);
+    res.status(200).send(data);
+    
+})
+route.post('/randn',async (req,res)=>{
+    const data=await getRN(req.body.name,req.body.roll);
+    res.status(200).send(data);
+    
+})
+
 
 module.exports={
     route
