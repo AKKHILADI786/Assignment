@@ -7,6 +7,9 @@
     margin-bottom: 250px;
     
 }
+.car:hover{
+    transform: scale(1);
+}
 .main_heading div{
     color: rgb(0, 0, 0);
     background-color:#1951aa;

@@ -63,6 +63,6 @@ $(()=>{
     })
     $('#add_btn').click(()=>{
         $('#content').load('html/add.html')
-
     })
+    
 })
