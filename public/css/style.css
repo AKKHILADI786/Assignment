@@ -3,7 +3,7 @@
 @import url('../fonts/font2.css');
 /* font-family: 'Ubuntu Mono', monospace; */
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Hind+Madurai&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@700&display=swap');
 *{
     font-family: 'Ubuntu Mono', monospace;
 }
@@ -109,7 +109,7 @@
 }
 h4{
     color: #216ce4;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Source Serif Pro', serif;
 }
 .btnn{
     width: 120px !important;

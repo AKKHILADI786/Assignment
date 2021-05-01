@@ -1,0 +1,39 @@
+.car{
+    position: relative;
+    top: 25px !important;
+    width: 1000px !important;
+    box-shadow:  10px 10px 20px grey;
+    height: 100% !important;
+    margin-bottom: 250px;
+    
+}
+.main_heading div{
+    color: rgb(0, 0, 0);
+    background-color:#1951aa;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.card-header{
+    background-color:#1951aa;
+
+}
+.card-footer{
+    background-color:#1951aa;
+
+}
+.items{
+    border-radius: 10px;
+    background-color: #1b59bd;
+    color: white;
+    margin: 3px;
+    
+}
+.items:hover{
+    transform: scale(1.02);
+}
+.search_in{
+    border-radius: 15px;
+}
+#getdata{
+    width: 120px !important;
+}
