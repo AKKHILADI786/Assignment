@@ -1,0 +1,28 @@
+{
+  "name": "simplified-olmpics",
+  "version": "1.0.0",
+  "description": "<!-- PROJECT LOGO -->\r <br />\r <p align=\"center\">",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "sequelize": "^6.6.2",
+    "sqlite3": "^5.0.2",
+    "xlsx": "^0.16.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AKKHILADI786/Assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AKKHILADI786/Assignment/issues"
+  },
+  "homepage": "https://github.com/AKKHILADI786/Assignment#readme"
+}
